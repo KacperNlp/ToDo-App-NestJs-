@@ -1,5 +1,9 @@
 <template>
-  <main></main>
+  <main>
+    <AppTasksList />
+  </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppTasksList from "./components/AppTasksList.vue";
+</script>
